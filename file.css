@@ -1,0 +1,29 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 { 
+	text-align: center;
+	color: red;
+	font-size: 32px;}
+p, li {
+	text-align: justify;
+	font-size: 22px;}
+
+a {
+    
+}
+.title, h4{
+	font-size: 24px;
+	color: #1a1aff;
+}
+a, a:link, a:active{
+	color: #0000cc;
+	text-decoration: none;
+}
+
+
+
+
+.tw{
+	color: #80dfff;
+}
