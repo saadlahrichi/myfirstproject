@@ -1,27 +1,55 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif;
+	.inverted {
+	filter: invert(100%);
+
 }
+
+
+}
+body{
+	background: linear-gradient(to right, rgba(255,218,185,0.666), rgba(255,255,224,0.1));
+	border: 6px;	
+	border-style: solid;	
+	border-color: #585858; 
+	border-image-outset: 6px;
+	padding: 6px;
+	margin: 20px;
+	padding: 55px;
+
+}
+
 h1 { 
 	text-align: center;
 	color: red;
+	text-shadow: 2px 2px black;
 	font-size: 32px;}
-p, li {
-	text-align: justify;
-	font-size: 22px;}
-
-a {
-    
+h1:hover{
+	color: green;
+	text-shadow: 2px 2px black;
 }
-.title, h4{
+p, li{
+	
+	text-align: justify;	
+	font-size: 22px;
+	line-height: 150%;
+}
+ul li:hover{
+	color: blue;}
+
+.title{
+	color: #58ACFA;}
+
+
+h3, h4{
 	font-size: 24px;
 	color: #1a1aff;
+	text-transform: uppercase;
 }
 a, a:link, a:active{
 	color: #0000cc;
 	text-decoration: none;
 }
-
-
 
 
 .tw{
