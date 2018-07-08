@@ -1,0 +1,40 @@
+*{
+	margin: 10px;
+	padding: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+.top{
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+.bottom{
+padding: 50px;
+}
+
+html,body{
+	height:100%;
+}
+
+h1{
+	color:white;
+	margin: px;
+	padding: 0px;
+	font-size: 65px;
+}
+h3{
+	padding: 20px;
+}
+h2{
+	padding: 10px;
+}
+body{
+	background-image: url(https://bit.ly/2KJhoZW);
+	background-position: center;
+	background-size: cover;
+	color:white;
+}
+
+
