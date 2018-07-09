@@ -11,7 +11,7 @@
 	padding: 30px;
 }
 .bottom{
-padding: 50px;
+padding-top: 100px;
 }
 
 html,body{
@@ -19,16 +19,20 @@ html,body{
 }
 
 h1{
-	color:white;
+	color:yellow;
 	margin: px;
 	padding: 0px;
 	font-size: 65px;
 }
 h3{
 	padding: 20px;
+	color: orange;
 }
 h2{
 	padding: 10px;
+	color: red;
+	text-align: center;
+	
 }
 body{
 	background-image: url(https://bit.ly/2KJhoZW);
