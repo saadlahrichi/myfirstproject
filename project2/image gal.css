@@ -2,13 +2,16 @@
 margin: 0;
 }
 
+
 .top{
 	background-repeat: no-repeat;
 	background-image: url("./image gal.jpg"	);
     background-attachment: fixed;
-    height: 600px;
+    height: 900px;
     background-position: center;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    background-size: cover;
+
     }
 
 h1{
@@ -17,10 +20,10 @@ h1{
 	color: white;
 	padding-top: 100px;
 
-
 }
 
 h2{
+	margin-top: 40px;
 	font-size: 40px;
 	text-align: center;
 	color: #86898c;
@@ -29,9 +32,9 @@ h2{
 h3{
 	text-align: center;
 	font-size: 36px;
-	margin-top: 15px;
 	font-family:'Merriweather', serif;
 	padding-bottom: 25px;
+	letter-spacing: 2px;
 }
 
 h3::after{
@@ -41,14 +44,21 @@ h3::after{
 	margin-left: 450px;
 	margin-right: 450px;
 	border: 4px solid #3881f7;
+	margin-bottom: 30px;
 }
 
 img{
-	margin: 25px;
+	height: 480px;
+	width: 360px;
+	margin: 20px;
 	transition: all 1.2s;
-	filter: grayscale(70%);	
+	filter: grayscale(80%);
+}
+
+.images{
+	text-align: center;
 }
 img:hover{
 	position: relative; 
-    transform: translate3d(5px, -62px, 0px)	;
+    transform: translate3d(5px, -40px, 0px)	;
 	filter: grayscale(0%);}
